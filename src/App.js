@@ -1,4 +1,4 @@
-import React, { useEffect, useState, useContext } from 'react';
+import React, { useState, useContext } from 'react';
 import './App.css';
 import { IoContext } from './components/IoContext';
 import styled from 'styled-components';
