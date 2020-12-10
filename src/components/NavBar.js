@@ -68,7 +68,6 @@ function NavBar() {
             <Nav>
                 <span>{id}</span>
                 <Button onClick={() => setFormShown(!isFormShown)}>Change Username</Button>
-            <span>dylan</span>
             </Nav>
             {isFormShown && (
                 <Form onSubmit={handleSubmit}>
